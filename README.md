@@ -103,7 +103,7 @@ Using **Jupyter Notebook**:
 
 ## 🖼️ Dashboard Preview
 
-![Dashboard](Tableau dashboard.png)
+![Dashboard](tableau-dashboard.png)
 
 ---
 
