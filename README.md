@@ -101,10 +101,9 @@ Using **Jupyter Notebook**:
 
 ---
 
-## 🖼️ Dashboard Preview
+## 🖼️ Dashboard Preview and Live Preview
 
-![Dashboard](tableau-dashboard.png)
-
+[![Tableau Dashboard](tableau-dashboard.png)](https://public.tableau.com/app/profile/soham.sharma8884/viz/banking-risk-analysis/Dashboard1)
 ---
 
 ## 💡 Key Insights
