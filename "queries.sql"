@@ -1,0 +1,28 @@
+Banking Risk Analysis SQL Queries
+Purpose: Data extraction and aggregation for dashboard
+
+ 1. Total Clients
+SELECT COUNT(DISTINCT `Client ID`) AS total_clients
+FROM master_banking;
+
+2. Total Bank Loans
+SELECT SUM(`Bank Loans`) AS total_loans
+FROM master_banking;
+
+3. Total Bank Deposits
+SELECT SUM(`Bank Deposits`) AS total_deposits
+FROM master_banking;
+
+ 4. Clients by Gender
+SELECT Gender, COUNT(*) AS client_count
+FROM master_banking
+GROUP BY Gender;
+
+ 5. Clients by Income Band
+SELECT `Income Band`, COUNT(*) AS client_count
+FROM master_banking
+GROUP BY `Income Band`;
+
+ 6. Average Income
+SELECT AVG(`Estimated Income`) AS avg_income
+FROM master_banking;
